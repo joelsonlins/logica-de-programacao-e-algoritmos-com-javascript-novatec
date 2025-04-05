@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const precoProd = parseFloat(prompt("Preço do produto: "))
+    const pagamentoAVista = precoProd - (precoProd*0.1)
+    const pagamentoParcelado = precoProd / 3
+
+    alert(`O valor a ser pago á Vista é de: R$${pagamentoAVista.toFixed(2)}\nO valor a ser pago dividodo em 3 vezes é de: R$${pagamentoParcelado.toFixed(2)} por parcela`)
+  </script>
+</body>
+</html>
